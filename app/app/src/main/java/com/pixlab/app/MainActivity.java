@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         logo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                v.animate().rotation(360);
+                v.animate().rotationBy(360);
             }
         });
     }

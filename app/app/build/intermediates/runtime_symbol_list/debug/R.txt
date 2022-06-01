@@ -2362,7 +2362,7 @@ int drawable abc_vector_test 0x7f080055
 int drawable avd_hide_password 0x7f080056
 int drawable avd_show_password 0x7f080057
 int drawable background 0x7f080058
-int drawable backgroundbutton 0x7f080059
+int drawable background_button 0x7f080059
 int drawable btn_checkbox_checked_mtrl 0x7f08005a
 int drawable btn_checkbox_checked_to_unchecked_mtrl_animation 0x7f08005b
 int drawable btn_checkbox_unchecked_mtrl 0x7f08005c

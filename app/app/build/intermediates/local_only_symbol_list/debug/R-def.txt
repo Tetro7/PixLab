@@ -12,7 +12,7 @@ color teal_200
 color teal_700
 color white
 drawable background
-drawable backgroundbutton
+drawable background_button
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable logo

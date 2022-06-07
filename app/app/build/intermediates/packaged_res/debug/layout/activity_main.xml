@@ -70,6 +70,236 @@
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/windowCreateCanvas"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:elevation="2dp"
+        android:background="#39325A"
+        android:padding="20dp"
+        android:visibility="visible">
+
+        <Button
+            android:id="@+id/windowCloseButton"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:background="@drawable/close_create"/>
+
+        <TextView
+            android:id="@+id/createTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:text="Новый проект"
+            android:textSize="21sp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/open_sans_bold"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/inputTitleProject"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/createTitle"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:text="Название проекта"
+            android:textColor="@color/white"
+            android:textSize="17sp"
+            android:fontFamily="@font/open_sans_bold"
+            android:textStyle="bold"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="13dp"
+            android:paddingRight="13dp"
+            android:background="@drawable/background_input_title"
+            android:layout_marginTop="25dp"/>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/inputsSize"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/inputTitleProject"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginTop="13dp">
+
+            <EditText
+                android:id="@+id/inputWidth"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:textColor="@color/white"
+                android:textSize="17sp"
+                android:fontFamily="@font/open_sans_bold"
+                android:textStyle="bold"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:text="16"
+                android:maxLength="3"
+                android:inputType="number"
+                android:textAlignment="center"
+                android:background="@drawable/background_input_size"/>
+
+            <ImageView
+                android:id="@+id/xIcon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toTopOf="@+id/inputWidth"
+                app:layout_constraintLeft_toRightOf="@+id/inputWidth"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:src="@drawable/x"
+                android:paddingLeft="14dp"
+                android:paddingRight="14dp"/>
+
+            <EditText
+                android:id="@+id/inputHeight"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintLeft_toRightOf="@+id/xIcon"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:textColor="@color/white"
+                android:textSize="17sp"
+                android:fontFamily="@font/open_sans_bold"
+                android:textStyle="bold"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="16"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:textAlignment="center"
+                android:background="@drawable/background_input_size"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="9dp"
+                android:text="px"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:fontFamily="@font/open_sans"
+                android:textStyle="bold"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toRightOf="@+id/inputHeight"
+                android:paddingLeft="10dp"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:id="@+id/titlePopularSize"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Популярные размеры"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:fontFamily="@font/open_sans_bold"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/buttonsPopularSize"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/inputsSize"
+            android:paddingLeft="7dp"
+            android:layout_marginTop="15dp"/>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/buttonsPopularSize"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintTop_toBottomOf="@+id/titlePopularSize"
+            app:layout_constraintBottom_toTopOf="@+id/finalyCreateButton"
+            app:layout_constraintLeft_toLeftOf="parent">
+
+            <Button
+                android:id="@+id/size32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:textColor="@color/white"
+                android:textSize="17sp"
+                android:fontFamily="@font/open_sans_bold"
+                android:textStyle="bold"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_marginTop="7dp"
+                android:text="32 X 32"
+                android:textAlignment="center"
+                android:background="@drawable/background_button_popular_size"/>
+
+            <Button
+                android:id="@+id/size64"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintRight_toLeftOf="@+id/size128"
+                app:layout_constraintLeft_toRightOf="@+id/size32"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:textColor="@color/white"
+                android:textSize="17sp"
+                android:fontFamily="@font/open_sans_bold"
+                android:textStyle="bold"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="64 X 64"
+                android:textAlignment="center"
+                android:background="@drawable/background_button_popular_size"/>
+
+            <Button
+                android:id="@+id/size128"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:textColor="@color/white"
+                android:textSize="17sp"
+                android:fontFamily="@font/open_sans_bold"
+                android:textStyle="bold"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_marginTop="7dp"
+                android:text="128 X 128"
+                android:textAlignment="center"
+                android:background="@drawable/background_button_popular_size"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <Button
+            android:id="@+id/finalyCreateButton"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            app:layout_constraintTop_toBottomOf="@+id/buttonsPopularSize"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginTop="30dp"
+            android:text="Создать"
+            android:background="@drawable/background_button"
+            android:fontFamily="@font/open_sans_bold"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textAllCaps="false"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
     <TextView
         android:id="@+id/versionApp"
         android:layout_width="wrap_content"

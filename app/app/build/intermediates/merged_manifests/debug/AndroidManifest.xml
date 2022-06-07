@@ -22,6 +22,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.App" >
         <activity
+            android:name="com.pixlab.app.MainCanvas"
+            android:exported="false" />
+        <activity
             android:name="com.pixlab.app.MainActivity"
             android:exported="true" >
             <intent-filter>

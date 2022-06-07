@@ -2364,6 +2364,9 @@ drawable avd_hide_password
 drawable avd_show_password
 drawable background
 drawable background_button
+drawable background_button_popular_size
+drawable background_input_size
+drawable background_input_title
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -2372,6 +2375,7 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable close_create
 drawable design_fab_background
 drawable design_ic_visibility
 drawable design_ic_visibility_off
@@ -2434,6 +2438,7 @@ drawable test_custom_background
 drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+drawable x
 font open_sans
 font open_sans_bold
 id ALT
@@ -2526,6 +2531,7 @@ id blocking
 id bottom
 id bounce
 id buttonPanel
+id buttonsPopularSize
 id cache_measures
 id cancel_button
 id center
@@ -2559,6 +2565,7 @@ id coordinator
 id cos
 id counterclockwise
 id createButton
+id createTitle
 id custom
 id customPanel
 id cut
@@ -2609,6 +2616,7 @@ id fill
 id fill_horizontal
 id fill_vertical
 id filled
+id finalyCreateButton
 id fitCenter
 id fitEnd
 id fitStart
@@ -2641,6 +2649,10 @@ id ignore
 id ignoreRequest
 id image
 id info
+id inputHeight
+id inputTitleProject
+id inputWidth
+id inputsSize
 id invisible
 id inward
 id italic
@@ -2788,6 +2800,9 @@ id showCustom
 id showHome
 id showTitle
 id sin
+id size128
+id size32
+id size64
 id skipCollapsed
 id slide
 id snackbar_action
@@ -2852,6 +2867,7 @@ id textinput_suffix_text
 id time
 id title
 id titleDividerNoCustom
+id titlePopularSize
 id title_template
 id toggle
 id top
@@ -2877,10 +2893,13 @@ id view_tree_saved_state_registry_owner
 id view_tree_view_model_store_owner
 id visible
 id visible_removing_fragment_view_tag
+id windowCloseButton
+id windowCreateCanvas
 id withText
 id withinBounds
 id wrap
 id wrap_content
+id xIcon
 id zero_corner_chip
 integer abc_config_activityDefaultDur
 integer abc_config_activityShortDur
@@ -2975,6 +2994,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_main
+layout activity_main_canvas
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog

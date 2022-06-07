@@ -4,6 +4,10 @@
         "source": "C:\\Users\\Tetro\\.gradle\\daemon\\7.3.3\\com.pixlab.app-main-27:\\layout\\activity_main.xml"
     },
     {
+        "merged": "C:\\Users\\Tetro\\.gradle\\daemon\\7.3.3\\com.pixlab.app-merged_res-25:\\drawable_background_button_popular_size.png.flat",
+        "source": "C:\\Users\\Tetro\\.gradle\\daemon\\7.3.3\\com.pixlab.app-main-27:\\drawable\\background_button_popular_size.png"
+    },
+    {
         "merged": "C:\\Users\\Tetro\\.gradle\\daemon\\7.3.3\\com.pixlab.app-merged_res-25:\\drawable-v24_ic_launcher_foreground.xml.flat",
         "source": "C:\\Users\\Tetro\\.gradle\\daemon\\7.3.3\\com.pixlab.app-main-27:\\drawable-v24\\ic_launcher_foreground.xml"
     },
@@ -40,6 +44,10 @@
         "source": "C:\\Users\\Tetro\\.gradle\\daemon\\7.3.3\\com.pixlab.app-main-27:\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
+        "merged": "C:\\Users\\Tetro\\.gradle\\daemon\\7.3.3\\com.pixlab.app-merged_res-25:\\layout_activity_main_canvas.xml.flat",
+        "source": "C:\\Users\\Tetro\\.gradle\\daemon\\7.3.3\\com.pixlab.app-main-27:\\layout\\activity_main_canvas.xml"
+    },
+    {
         "merged": "com.pixlab.app-merged_res-25:/layout_activity_main.xml.flat",
         "source": "com.pixlab.app-main-27:/layout/activity_main.xml"
     },
@@ -54,6 +62,10 @@
     {
         "merged": "C:\\Users\\Tetro\\.gradle\\daemon\\7.3.3\\com.pixlab.app-merged_res-25:\\xml_backup_rules.xml.flat",
         "source": "C:\\Users\\Tetro\\.gradle\\daemon\\7.3.3\\com.pixlab.app-main-27:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\Tetro\\.gradle\\daemon\\7.3.3\\com.pixlab.app-merged_res-25:\\drawable_background_input_size.png.flat",
+        "source": "C:\\Users\\Tetro\\.gradle\\daemon\\7.3.3\\com.pixlab.app-main-27:\\drawable\\background_input_size.png"
     },
     {
         "merged": "C:\\Users\\Tetro\\.gradle\\daemon\\7.3.3\\com.pixlab.app-merged_res-25:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
@@ -72,10 +84,6 @@
         "source": "C:\\Users\\Tetro\\.gradle\\daemon\\7.3.3\\com.pixlab.app-main-27:\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\Tetro\\.gradle\\daemon\\7.3.3\\com.pixlab.app-merged_res-25:\\drawable_backgroundbutton.png.flat",
-        "source": "C:\\Users\\Tetro\\.gradle\\daemon\\7.3.3\\com.pixlab.app-main-27:\\drawable\\backgroundbutton.png"
-    },
-    {
         "merged": "C:\\Users\\Tetro\\.gradle\\daemon\\7.3.3\\com.pixlab.app-merged_res-25:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\Tetro\\.gradle\\daemon\\7.3.3\\com.pixlab.app-main-27:\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
@@ -92,7 +100,19 @@
         "source": "C:\\Users\\Tetro\\.gradle\\daemon\\7.3.3\\com.pixlab.app-main-27:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
+        "merged": "C:\\Users\\Tetro\\.gradle\\daemon\\7.3.3\\com.pixlab.app-merged_res-25:\\drawable_close_create.png.flat",
+        "source": "C:\\Users\\Tetro\\.gradle\\daemon\\7.3.3\\com.pixlab.app-main-27:\\drawable\\close_create.png"
+    },
+    {
+        "merged": "C:\\Users\\Tetro\\.gradle\\daemon\\7.3.3\\com.pixlab.app-merged_res-25:\\drawable_background_input_title.png.flat",
+        "source": "C:\\Users\\Tetro\\.gradle\\daemon\\7.3.3\\com.pixlab.app-main-27:\\drawable\\background_input_title.png"
+    },
+    {
         "merged": "C:\\Users\\Tetro\\.gradle\\daemon\\7.3.3\\com.pixlab.app-merged_res-25:\\drawable_logo.png.flat",
         "source": "C:\\Users\\Tetro\\.gradle\\daemon\\7.3.3\\com.pixlab.app-main-27:\\drawable\\logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Tetro\\.gradle\\daemon\\7.3.3\\com.pixlab.app-merged_res-25:\\drawable_x.png.flat",
+        "source": "C:\\Users\\Tetro\\.gradle\\daemon\\7.3.3\\com.pixlab.app-main-27:\\drawable\\x.png"
     }
 ]

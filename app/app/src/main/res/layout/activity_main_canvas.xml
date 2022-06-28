@@ -8,6 +8,7 @@
     android:background="#221B47">
 
     <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/colorsPanel"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#000000"
@@ -26,6 +27,7 @@
             app:layout_constraintRight_toRightOf="parent">
 
                 <ImageButton
+                    android:id="@+id/colorRed"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:maxWidth="40dp"
@@ -35,22 +37,24 @@
                     android:padding="0dp"/>
 
                 <ImageButton
+                    android:id="@+id/colorBlack"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:maxWidth="40dp"
                     android:maxHeight="40dp"
                     android:src="@drawable/ic_color"
-                    app:tint="#C4C4C4"
+                    app:tint="#000000"
                     android:padding="0dp"
                     android:layout_marginLeft="5dp"/>
 
                 <ImageButton
+                    android:id="@+id/colorGreen"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:maxWidth="40dp"
                     android:maxHeight="40dp"
                     android:src="@drawable/ic_color"
-                    app:tint="#C4C4C4"
+                    app:tint="#00ff00"
                     android:padding="0dp"
                     android:layout_marginLeft="5dp"/>
 
@@ -146,21 +150,23 @@
             app:layout_constraintRight_toRightOf="parent">
 
                 <ImageButton
+                    android:id="@+id/colorBlue"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:maxWidth="40dp"
                     android:maxHeight="40dp"
                     android:src="@drawable/ic_color"
-                    app:tint="#ff0000"
+                    app:tint="#0000ff"
                     android:padding="0dp"/>
 
                 <ImageButton
+                    android:id="@+id/colorYellow"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:maxWidth="40dp"
                     android:maxHeight="40dp"
                     android:src="@drawable/ic_color"
-                    app:tint="#C4C4C4"
+                    app:tint="#ffff00"
                     android:padding="0dp"
                     android:layout_marginLeft="5dp"/>
 
@@ -259,9 +265,28 @@
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
-    <Canvas
+    <LinearLayout
+        android:id="@+id/containerCanvasBackground"
+        android:layout_width="320dp"
+        android:layout_height="320dp"
+        android:orientation="horizontal"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/colorsPanel"
+        app:layout_constraintBottom_toTopOf="@+id/toolsPanel"/>
+
+    <LinearLayout
+        android:id="@+id/containerCanvas"
+        android:layout_width="320dp"
+        android:layout_height="320dp"
+        android:orientation="horizontal"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/colorsPanel"
+        app:layout_constraintBottom_toTopOf="@+id/toolsPanel"/>
 
     <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/toolsPanel"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#000000"
@@ -280,6 +305,7 @@
             app:layout_constraintRight_toRightOf="parent">
 
             <ImageButton
+                android:id="@+id/toolPan"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:maxWidth="50dp"
@@ -289,6 +315,7 @@
                 android:padding="0dp"/>
 
             <ImageButton
+                android:id="@+id/toolRubber"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:maxWidth="50dp"

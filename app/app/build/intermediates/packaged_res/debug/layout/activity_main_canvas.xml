@@ -4,6 +4,364 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainCanvas">
+    tools:context=".MainCanvas"
+    android:background="#221B47">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/colorsPanel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:padding="5dp">
+
+        <LinearLayout
+            android:id="@+id/colorLineFirst"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent">
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxWidth="40dp"
+                    android:maxHeight="40dp"
+                    android:src="@drawable/ic_color"
+                    app:tint="#ff0000"
+                    android:padding="0dp"/>
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxWidth="40dp"
+                    android:maxHeight="40dp"
+                    android:src="@drawable/ic_color"
+                    app:tint="#C4C4C4"
+                    android:padding="0dp"
+                    android:layout_marginLeft="5dp"/>
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxWidth="40dp"
+                    android:maxHeight="40dp"
+                    android:src="@drawable/ic_color"
+                    app:tint="#C4C4C4"
+                    android:padding="0dp"
+                    android:layout_marginLeft="5dp"/>
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxWidth="40dp"
+                    android:maxHeight="40dp"
+                    android:src="@drawable/ic_color"
+                    app:tint="#C4C4C4"
+                    android:padding="0dp"
+                    android:layout_marginLeft="5dp"/>
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxWidth="40dp"
+                    android:maxHeight="40dp"
+                    android:src="@drawable/ic_color"
+                    app:tint="#C4C4C4"
+                    android:padding="0dp"
+                    android:layout_marginLeft="5dp"/>
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxWidth="40dp"
+                    android:maxHeight="40dp"
+                    android:src="@drawable/ic_color"
+                    app:tint="#C4C4C4"
+                    android:padding="0dp"
+                    android:layout_marginLeft="5dp"/>
+
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxWidth="40dp"
+                    android:maxHeight="40dp"
+                    android:src="@drawable/ic_color"
+                    app:tint="#C4C4C4"
+                    android:padding="0dp"
+                    android:layout_marginLeft="5dp"/>
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxWidth="40dp"
+                    android:maxHeight="40dp"
+                    android:src="@drawable/ic_color"
+                    app:tint="#C4C4C4"
+                    android:padding="0dp"
+                    android:layout_marginLeft="5dp"/>
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxWidth="40dp"
+                    android:maxHeight="40dp"
+                    android:src="@drawable/ic_color"
+                    app:tint="#C4C4C4"
+                    android:padding="0dp"
+                    android:layout_marginLeft="5dp"/>
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxWidth="40dp"
+                    android:maxHeight="40dp"
+                    android:src="@drawable/ic_color"
+                    app:tint="#C4C4C4"
+                    android:padding="0dp"
+                    android:layout_marginLeft="5dp"/>
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxWidth="40dp"
+                    android:maxHeight="40dp"
+                    android:src="@drawable/ic_color"
+                    app:tint="#C4C4C4"
+                    android:padding="0dp"
+                    android:layout_marginLeft="5dp"/>
+
+            </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            app:layout_constraintTop_toBottomOf="@+id/colorLineFirst"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent">
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxWidth="40dp"
+                    android:maxHeight="40dp"
+                    android:src="@drawable/ic_color"
+                    app:tint="#ff0000"
+                    android:padding="0dp"/>
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxWidth="40dp"
+                    android:maxHeight="40dp"
+                    android:src="@drawable/ic_color"
+                    app:tint="#C4C4C4"
+                    android:padding="0dp"
+                    android:layout_marginLeft="5dp"/>
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxWidth="40dp"
+                    android:maxHeight="40dp"
+                    android:src="@drawable/ic_color"
+                    app:tint="#C4C4C4"
+                    android:padding="0dp"
+                    android:layout_marginLeft="5dp"/>
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxWidth="40dp"
+                    android:maxHeight="40dp"
+                    android:src="@drawable/ic_color"
+                    app:tint="#C4C4C4"
+                    android:padding="0dp"
+                    android:layout_marginLeft="5dp"/>
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxWidth="40dp"
+                    android:maxHeight="40dp"
+                    android:src="@drawable/ic_color"
+                    app:tint="#C4C4C4"
+                    android:padding="0dp"
+                    android:layout_marginLeft="5dp"/>
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxWidth="40dp"
+                    android:maxHeight="40dp"
+                    android:src="@drawable/ic_color"
+                    app:tint="#C4C4C4"
+                    android:padding="0dp"
+                    android:layout_marginLeft="5dp"/>
+
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxWidth="40dp"
+                    android:maxHeight="40dp"
+                    android:src="@drawable/ic_color"
+                    app:tint="#C4C4C4"
+                    android:padding="0dp"
+                    android:layout_marginLeft="5dp"/>
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxWidth="40dp"
+                    android:maxHeight="40dp"
+                    android:src="@drawable/ic_color"
+                    app:tint="#C4C4C4"
+                    android:padding="0dp"
+                    android:layout_marginLeft="5dp"/>
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxWidth="40dp"
+                    android:maxHeight="40dp"
+                    android:src="@drawable/ic_color"
+                    app:tint="#C4C4C4"
+                    android:padding="0dp"
+                    android:layout_marginLeft="5dp"/>
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxWidth="40dp"
+                    android:maxHeight="40dp"
+                    android:src="@drawable/ic_color"
+                    app:tint="#C4C4C4"
+                    android:padding="0dp"
+                    android:layout_marginLeft="5dp"/>
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxWidth="40dp"
+                    android:maxHeight="40dp"
+                    android:src="@drawable/ic_color"
+                    app:tint="#C4C4C4"
+                    android:padding="0dp"
+                    android:layout_marginLeft="5dp"/>
+
+            </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <LinearLayout
+        android:id="@+id/containerCanvasBackground"
+        android:layout_width="320dp"
+        android:layout_height="320dp"
+        android:orientation="horizontal"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/colorsPanel"
+        app:layout_constraintBottom_toTopOf="@+id/toolsPanel"/>
+
+    <LinearLayout
+        android:id="@+id/containerCanvas"
+        android:layout_width="320dp"
+        android:layout_height="320dp"
+        android:orientation="horizontal"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/colorsPanel"
+        app:layout_constraintBottom_toTopOf="@+id/toolsPanel"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/toolsPanel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:id="@+id/toolLineFirst"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent">
+
+            <ImageButton
+                android:id="@+id/toolPan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxWidth="50dp"
+                android:maxHeight="50dp"
+                android:src="@drawable/ic_tool"
+                app:tint="#C4C4C4"
+                android:padding="0dp"/>
+
+            <ImageButton
+                android:id="@+id/toolRubber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxWidth="50dp"
+                android:maxHeight="50dp"
+                android:src="@drawable/ic_tool"
+                app:tint="#C4C4C4"
+                android:padding="0dp"
+                android:layout_marginLeft="10dp"/>
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxWidth="50dp"
+                android:maxHeight="50dp"
+                android:src="@drawable/ic_tool"
+                app:tint="#C4C4C4"
+                android:padding="0dp"
+                android:layout_marginLeft="10dp"/>
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxWidth="50dp"
+                android:maxHeight="50dp"
+                android:src="@drawable/ic_tool"
+                app:tint="#C4C4C4"
+                android:padding="0dp"
+                android:layout_marginLeft="10dp"/>
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxWidth="50dp"
+                android:maxHeight="50dp"
+                android:src="@drawable/ic_tool"
+                app:tint="#C4C4C4"
+                android:padding="0dp"
+                android:layout_marginLeft="10dp"/>
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxWidth="50dp"
+                android:maxHeight="50dp"
+                android:src="@drawable/ic_tool"
+                app:tint="#C4C4C4"
+                android:padding="0dp"
+                android:layout_marginLeft="10dp"/>
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

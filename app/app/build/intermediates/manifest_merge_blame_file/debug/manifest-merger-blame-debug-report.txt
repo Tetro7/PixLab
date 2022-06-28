@@ -11,7 +11,7 @@
 9-->D:\Project\PixLab\app\app\src\main\AndroidManifest.xml
 10
 11    <application
-11-->D:\Project\PixLab\app\app\src\main\AndroidManifest.xml:6:5-32:19
+11-->D:\Project\PixLab\app\app\src\main\AndroidManifest.xml:6:5-33:19
 12        android:allowBackup="true"
 12-->D:\Project\PixLab\app\app\src\main\AndroidManifest.xml:7:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -40,29 +40,29 @@
 26            android:exported="false" />
 26-->D:\Project\PixLab\app\app\src\main\AndroidManifest.xml:18:13-37
 27        <activity
-27-->D:\Project\PixLab\app\app\src\main\AndroidManifest.xml:19:9-27:20
+27-->D:\Project\PixLab\app\app\src\main\AndroidManifest.xml:19:9-28:20
 28            android:name="com.pixlab.app.MainActivity"
 28-->D:\Project\PixLab\app\app\src\main\AndroidManifest.xml:20:13-41
 29            android:exported="true" >
 29-->D:\Project\PixLab\app\app\src\main\AndroidManifest.xml:21:13-36
 30            <intent-filter>
-30-->D:\Project\PixLab\app\app\src\main\AndroidManifest.xml:22:13-26:29
+30-->D:\Project\PixLab\app\app\src\main\AndroidManifest.xml:23:13-27:29
 31                <action android:name="android.intent.action.MAIN" />
-31-->D:\Project\PixLab\app\app\src\main\AndroidManifest.xml:23:17-69
-31-->D:\Project\PixLab\app\app\src\main\AndroidManifest.xml:23:25-66
+31-->D:\Project\PixLab\app\app\src\main\AndroidManifest.xml:24:17-69
+31-->D:\Project\PixLab\app\app\src\main\AndroidManifest.xml:24:25-66
 32
 33                <category android:name="android.intent.category.LAUNCHER" />
-33-->D:\Project\PixLab\app\app\src\main\AndroidManifest.xml:25:17-77
-33-->D:\Project\PixLab\app\app\src\main\AndroidManifest.xml:25:27-74
+33-->D:\Project\PixLab\app\app\src\main\AndroidManifest.xml:26:17-77
+33-->D:\Project\PixLab\app\app\src\main\AndroidManifest.xml:26:27-74
 34            </intent-filter>
 35        </activity>
 36
 37        <meta-data
-37-->D:\Project\PixLab\app\app\src\main\AndroidManifest.xml:29:9-31:57
+37-->D:\Project\PixLab\app\app\src\main\AndroidManifest.xml:30:9-32:57
 38            android:name="preloaded_fonts"
-38-->D:\Project\PixLab\app\app\src\main\AndroidManifest.xml:30:13-43
+38-->D:\Project\PixLab\app\app\src\main\AndroidManifest.xml:31:13-43
 39            android:resource="@array/preloaded_fonts" />
-39-->D:\Project\PixLab\app\app\src\main\AndroidManifest.xml:31:13-54
+39-->D:\Project\PixLab\app\app\src\main\AndroidManifest.xml:32:13-54
 40
 41        <provider
 41-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Tetro\.gradle\caches\transforms-3\9cb5d0b2fd275b8005e0d8fda37c4df6\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20

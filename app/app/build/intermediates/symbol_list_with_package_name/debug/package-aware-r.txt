@@ -2382,6 +2382,7 @@ drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
 drawable ic_clock_black_24dp
+drawable ic_color
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
 drawable ic_launcher_foreground
@@ -2392,6 +2393,7 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable ic_tool
 drawable logo
 drawable m3_appbar_background
 drawable m3_popupmenu_background_overlay
@@ -2555,9 +2557,13 @@ id clip_horizontal
 id clip_vertical
 id clockwise
 id collapseActionView
+id colorLineFirst
+id colorsPanel
 id compress
 id confirm_button
 id container
+id containerCanvas
+id containerCanvasBackground
 id content
 id contentPanel
 id contiguous
@@ -2744,6 +2750,7 @@ id notification_main_column
 id notification_main_column_container
 id off
 id on
+id openButton
 id outline
 id outward
 id packed
@@ -2870,6 +2877,10 @@ id titleDividerNoCustom
 id titlePopularSize
 id title_template
 id toggle
+id toolLineFirst
+id toolPan
+id toolRubber
+id toolsPanel
 id top
 id topPanel
 id touch_outside

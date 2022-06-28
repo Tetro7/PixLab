@@ -3,6 +3,7 @@ package com.pixlab.app;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.constraintlayout.widget.ConstraintLayout;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -19,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
     private Button size128;
     private EditText inputWidth;
     private EditText inputHeight;
+    private Button openButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
         size128 = findViewById(R.id.size128);
         inputWidth = findViewById(R.id.inputWidth);
         inputHeight = findViewById(R.id.inputHeight);
+        openButton = findViewById(R.id.openButton);
 
         logo.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -77,6 +80,14 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 inputWidth.setText("128");
                 inputHeight.setText("128");
+            }
+        });
+
+        openButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent mainCanvas = new Intent(MainActivity.this, MainCanvas.class);
+                startActivity(mainCanvas);
             }
         });
     }
